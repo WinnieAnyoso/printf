@@ -166,7 +166,7 @@ int handle_precision(va_list args, const char *modifier, char *index)
  *         Otherwise - NULL.
  */
 unsigned int (*handle_specifiers(const char *specifier))(va_list, buffer_t *,
-	       	unsigned char, int, int, unsigned char)
+		unsigned char, int, int, unsigned char)
 {
 	int i;
 	converter_t converters[] = {
